@@ -6367,49 +6367,50 @@ lg {
 }
 
 .about-image .single-image {
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
-    -ms-transform: rotate(45deg);
-    -o-transform: rotate(45deg);
-    transform: rotate(45deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
     position: absolute;
     z-index: 1
 }
 
 @media only screen and (min-width:992px) and (max-width:1199px) {
     .about-image .single-image {
-        -webkit-transform: rotate(45deg) scale(.6);
-        -moz-transform: rotate(45deg) scale(.6);
-        -ms-transform: rotate(45deg) scale(.6);
-        -o-transform: rotate(45deg) scale(.6);
-        transform: rotate(45deg) scale(.6)
+        -webkit-transform: rotate(0deg) scale(.6);
+        -moz-transform: rotate(0deg) scale(.6);
+        -ms-transform: rotate(0deg) scale(.6);
+        -o-transform: rotate(0deg) scale(.6);
+        transform: rotate(0deg) scale(.6)
     }
 }
 
 @media (max-width:767px) {
     .about-image .single-image {
         position: relative;
-        -webkit-transform: rotate(45deg) scale(.6);
-        -moz-transform: rotate(45deg) scale(.6);
-        -ms-transform: rotate(45deg) scale(.6);
-        -o-transform: rotate(45deg) scale(.6);
-        transform: rotate(45deg) scale(.6)
+        -webkit-transform: rotate(0deg) scale(.6);
+        -moz-transform: rotate(0deg) scale(.6);
+        -ms-transform: rotate(0deg) scale(.6);
+        -o-transform: rotate(0deg) scale(.6);
+        transform: rotate(0deg) scale(.6)
     }
 }
 
 @media only screen and (min-width:576px) and (max-width:767px) {
     .about-image .single-image {
         position: absolute;
-        -webkit-transform: rotate(45deg) scale(.8);
-        -moz-transform: rotate(45deg) scale(.8);
-        -ms-transform: rotate(45deg) scale(.8);
-        -o-transform: rotate(45deg) scale(.8);
-        transform: rotate(45deg) scale(.8)
+        -webkit-transform: rotate(0deg) scale(.8);
+        -moz-transform: rotate(0deg) scale(.8);
+        -ms-transform: rotate(0deg) scale(.8);
+        -o-transform: rotate(0deg) scale(.8);
+        transform: rotate(0deg) scale(.8)
     }
 }
 
 .about-image .single-image img {
-    border-radius: 30px
+    border-radius: 30px;
+    
 }
 
 @media (max-width:767px) {
@@ -6489,7 +6490,7 @@ lg {
 .about-image .single-image.image-2::before {
     right: -12px;
     bottom: -12px;
-    background-color: #27b8a7
+    background-color:  #07294d
 }
 
 .about-image .single-image.image-3 {
@@ -6521,7 +6522,7 @@ lg {
 .about-image .single-image.image-3::before {
     bottom: -10px;
     left: -10px;
-    background-color: #0c8b51
+    background-color:  #07294d
 }
 
 .about-image .single-image.image-4 {
@@ -6556,7 +6557,7 @@ lg {
 .about-image .single-image.image-4::before {
     top: -10px;
     left: -10px;
-    background-color: #2f7ad5
+    background-color:  #07294d
 }
 
 .about-image .about-icon {
